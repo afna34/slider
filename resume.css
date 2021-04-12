@@ -1,7 +1,9 @@
 body{
     margin: 0;
     background-image:  linear-gradient(to right top, #00715d, #00636a, #005275, #003f76, #002867, #002e74, #003581, #003b8f, #0066bb, #008ab4, #00a879, #08be00);
-    
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
 }
 h1{
     font-size: 37px;
@@ -11,7 +13,7 @@ h1{
 .bdy{
     background-color: #010729;
     width: 100%;
-    height: 400px;
+    height: 500px;
 }
 h2{
     font-weight: bold;
