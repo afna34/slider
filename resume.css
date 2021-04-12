@@ -1,32 +1,39 @@
 body{
     margin: 0;
     background-image:  linear-gradient(to right top, #00715d, #00636a, #005275, #003f76, #002867, #002e74, #003581, #003b8f, #0066bb, #008ab4, #00a879, #08be00);
-    height: 600px;
+    height: 800px;
     width: 100%;
     background-repeat: no-repeat;
 }
+    
 h1{
-    font-size: 37px;
+    font-size: 39px;
     color: #bef2fa;
-    padding-left: 11px
+    padding-left: 60px
 }
-.bdy{
-    background-color: #010729;
-    width: 100%;
+.outer-div{
     height: 500px;
+    width: 90%;
+    position: relative;
+    top: 28%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #010729 ;
 }
+
 h2{
     font-weight: bold;
     color: #51f8ed;
     font-size: 27px;
     text-align: left;
-    padding-left: 54px;
+    padding-left: 115px;
 }
 .head1{
     color: white;
     font-size: 27px;
     padding-bottom: 9px;
     font-family:cursive ;
+
 }
 h3{
     color: #b4f3d8;
@@ -46,4 +53,5 @@ h3{
     color:white;
     font-size: 16px;
     padding-left: 800px;
+    padding-bottom: 20px;
 }
